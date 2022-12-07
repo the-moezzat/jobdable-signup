@@ -1,0 +1,47 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: $s-24;
+
+  &__field {
+    display: flex;
+    flex-direction: column;
+
+    &--textarea {
+      grid-column: 1 / -1;
+    }
+  }
+
+  &__label {
+    display: inline-block;
+    font-size: $fs-18;
+    color: $gray-heading-color;
+    font-weight: $fw-medium;
+    margin-bottom: $s-8;
+  }
+
+  &__input {
+    width: 100%;
+    background-color: none;
+    border: 1px solid $gray-border-color;
+    border-radius: 8px;
+    padding: $s-16;
+    letter-spacing: 0.5px;
+    color: $gray-text-color;
+    font-size: $fs-18;
+
+    &--textarea {
+      resize: vertical;
+      min-height: 120px;
+    }
+
+    &::placeholder {
+      font-family: inherit;
+      color: $gray-text-light-color;
+    }
+
+    &:focus {
+      outline: none;
+    }
+  }
+}

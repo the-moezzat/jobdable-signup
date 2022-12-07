@@ -1,0 +1,53 @@
+.btn {
+  display: block;
+  border-radius: $br-default;
+  color: #fff;
+  font-size: $fs-18;
+  font-weight: $fw-bold;
+  border: none;
+  transition: all 0.3s;
+  width: fit-content;
+  cursor: pointer;
+
+  &:hover {
+    background-color: lighten($main-color, $amount: 5);
+  }
+
+  &--main {
+    background-color: $main-color;
+  }
+
+  &--big {
+    padding: 2.4rem;
+  }
+  &--medium {
+    padding: 1.6rem;
+  }
+
+  &--icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: $s-12;
+  }
+
+  &--tertiary {
+    color: $gray-heading-color;
+
+    &:hover {
+      text-decoration: underline;
+      background-color: transparent;
+    }
+  }
+}
+
+.icon-btn {
+  font-size: $fs-24;
+}
+
+.btns {
+  grid-column: 1 / -1;
+  display: flex;
+  align-items: center;
+  gap: $s-32;
+}

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="https://unpkg.com/phosphor-icons"></script>
+  <script src="./script.js" defer></script>
+  <title>jobdable sign up</title>
+</head>
+
+<body>
+  <div class="container">
+    <header class="header">
+      <ul class="steps-list">
+        <li class="step-item step-item--active step-tab-1" data-number="1"><span class="step-number">1</span>
+          <p class="step-text">Personal information</p>
+        </li>
+        <li class="step-item step-tab-2" data-number="2"><span class="step-number">2</span>
+          <p class="step-text"> Security</p>
+        </li>
+        <li class="step-item step-tab-3" data-number="3"><span class="step-number">3</span>
+          <p class="step-text"> Background</p>
+        </li>
+      </ul>
+    </header>
+    <main class="main">
+      <div class="title">
+        <p class="text">Lest's setup your account</p>
+        <h2 class="heading--secondary">Sign up</h2>
+      </div>
+      <form action="#">
+        <div class="form step step-1 step--active" data-number="1">
+          <div class="form__field">
+            <label for="f-name" class="form__label">First Name</label>
+            <input type="text" name="f-name" id="f-name" class="form__input" placeholder="Mohamed" required>
+          </div>
+          <div class="form__field">
+            <label for="l-name" class="form__label">Last name</label>
+            <input type="text" name="l-name" id="l-name" class="form__input" placeholder="Adel" required>
+          </div>
+          <div class="form__field">
+            <label for="email" class="form__label">Email address</label>
+            <input type="email" name="email" id="email" class="form__input" placeholder="moezzat@domail.com" required>
+          </div>
+          <div class="form__field">
+            <label for="dis" class="form__label">Disability type</label>
+            <input type="text" name="dis" id="dis" class="form__input" placeholder="Mohamed" required>
+          </div>
+          <div class="form__field">
+            <label for="phone" class="form__label">Phone number</label>
+            <input type="tel" name="phone" id="phone" class="form__input" placeholder="Mohamed" required>
+          </div>
+          <div class="form__field">
+            <label for="location" class="form__label">Location</label>
+            <input type="text" name="location" id="location" class="form__input" placeholder="Cairo, egypt" required>
+          </div>
+          <button class="next-btn btn--main btn btn--big btn--icon mt-md" type="button"><span><i
+                class="ph-arrow-right icon-btn"></i></span>Next
+            step</button>
+        </div>
+
+        <!-- STEP 2 -->
+
+        <div class="form step-2 step" data-number="2">
+          <div class="form__field">
+            <label for="password" class="form__label">Password</label>
+            <input type="password" name="password" id="password" class="form__input" placeholder="password" required>
+          </div>
+          <div class="form__field">
+            <label for="confirm" class="form__label">confirm password</label>
+            <input type="password" name="confirm" id="confirm" class="form__input" placeholder="confirm password"
+              required>
+          </div>
+          <div class="form__field">
+            <label for="sec-q" class="form__label">security question</label>
+            <input type="text" name="security question" id="sec-q" class="form__input" placeholder="moezzat@domail.com"
+              required>
+          </div>
+          <div class="form__field">
+            <label for="ans" class="form__label">answer to security question</label>
+            <input type="text" name="answer to security question" id="ans" class="form__input" placeholder="Mohamed"
+              required>
+          </div>
+          <div class="btns mt-md">
+            <div class="pre-btn btn btn--tertiary btn--icon"><span><i class="ph-arrow-left icon-btn"></i></span>
+              Previous step
+            </div>
+            <button class="next-btn btn--main btn btn--big btn--icon" type="button"><span><i
+                  class="ph-arrow-right icon-btn"></i></span>Next step</button>
+          </div>
+        </div>
+
+        <!-- STEP 3 -->
+
+        <div class="form step-3 step" data-number="3">
+          <div class="form__field">
+            <label for="job-title" class="form__label">Job title</label>
+            <input type="text" name="job-title" id="job-title" class="form__input" placeholder="Software engineer"
+              required>
+          </div>
+          <div class="form__field">
+            <label for="job-field" class="form__label">job field</label>
+            <input type="text" name="job-field" id="job-field" class="form__input" placeholder="Information Technology"
+              required>
+          </div>
+          <div class="form__field form__field--textarea">
+            <label for="about" class="form__label">About me</label>
+            <textarea name="About me" id="about" cols="30"
+              placeholder="Talk about your experience, skills or even about your self"
+              class="form__input form__input--textarea"></textarea>
+          </div>
+          <div class="form__field">
+            <label class="form__label">Resume</label>
+            <button class="btn--main btn btn--medium btn--icon" type="button"><span><i
+                  class="ph-file-arrow-up"></i></span>
+              Upload</button>
+          </div>
+          <div class="btns mt-md">
+            <div class="pre-btn btn btn--tertiary btn--icon"><span><i class="ph-arrow-left icon-btn"></i></span>
+              Previous step
+            </div>
+            <button class="btn--main btn btn--big btn--icon" type="submit"><span><i
+                  class="ph-check-circle icon-btn"></i></span>Finish</button>
+          </div>
+        </div>
+      </form>
+    </main>
+    <footer class="footer"> Already have an account? <a href="#" class="link">Login</a></footer>
+  </div>
+</body>
+
+</html>

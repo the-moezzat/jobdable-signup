@@ -1,0 +1,32 @@
+.step-item {
+  display: flex;
+  align-items: center;
+  gap: $s-16;
+
+  .step-number {
+    width: $s-48;
+    height: $s-48;
+    font-size: $fs-20;
+    border: 1px solid $gray-border-color;
+    color: $gray-heading-color;
+    font-weight: $fw-medium;
+    border-radius: $br-default;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .step-text {
+    font-size: $fs-18;
+    color: $gray-heading-color;
+    font-weight: $fw-medium;
+    letter-spacing: 0.5px;
+  }
+
+  &--active {
+    .step-number {
+      background-color: $main-color;
+      color: #fff;
+    }
+  }
+}

@@ -1,0 +1,17 @@
+.header {
+  grid-row: 1 / 2;
+  grid-column: 1 / -1;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: $s-24;
+}
+
+.steps-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: $s-32;
+}

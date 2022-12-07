@@ -1,0 +1,74 @@
+// - Font sizes (px)
+$fs-10: 1rem;
+$fs-12: 1.2rem;
+$fs-14: 1.4rem;
+$fs-default: 1.6rem;
+$fs-18: 1.8rem;
+$fs-20: 2rem;
+$fs-24: 2.4rem;
+$fs-30: 3rem;
+$fs-36: 3.6rem;
+$fs-44: 4.4rem;
+$fs-52: 5.2rem;
+$fs-62: 6.2rem;
+$fs-74: 7.4rem;
+$fs-86: 8.6rem;
+$fs-98: 9.8rem;
+
+// - Font weights
+$fw-default: 400;
+$fw-medium: 500;
+$fw-bold: 700;
+
+// - Line heights
+$lh-default: 1;
+$lh-small: 1.05;
+$lh-medium: 1.2;
+$lh-paragraph-default: 1.6;
+$lh-large: 1.8;
+
+// - Letter spacing
+$ls-reduce: -0.5px;
+$ls-mag: 0.75px;
+
+// - COLORS
+
+// -- PRIMARY
+$main-color: #0299e5;
+$main-dark-color: #2f62fb;
+$accent-color: #03e78c;
+
+$gray-border-color: #dde4ee;
+$gray-text-light-color: #66768e;
+$gray-text-color: #2f3a4c;
+$gray-heading-color: #101c2d;
+
+// - 05 SHADOWS
+
+$shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+
+// - 06 BORDER-RADIUS
+
+$br-default: 15px;
+$br-medium: 20px;
+
+// - 07 WHITESPACE
+
+// - Spacing system (px)
+$s-2: 0.2rem;
+$s-4: 0.4rem;
+$s-8: 0.8rem;
+$s-12: 1.2rem;
+$s-16: 1.6rem;
+$s-24: 2.4rem;
+$s-32: 3.2rem;
+$s-48: 4.8rem;
+$s-64: 6.4rem;
+$s-80: 8rem;
+$s-96: 9.6rem;
+$s-128: 12.8rem;
+
+/////////////////////////////////
+// Break points
+$bp-lg: 65.62em; // 1050px
+$bp-md: 53.12em; // 800px
